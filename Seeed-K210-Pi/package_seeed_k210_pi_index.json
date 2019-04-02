@@ -14,10 +14,10 @@
                     "architecture": "riscv",
                     "category": "Contributed",
                     "version": "0.1.1",
-                    "url": "https://raw.githubusercontent.com/Even-yuwei/Arduino_Platform/master/Arduino-Core-0.1.1.zip",
-                    "checksum": "SHA-256:ac16ffd1cfc83322c520b8366593eb5b1c3d5f1f391a1031acd68ae030cec5e9",
-                    "archiveFileName": "Arduino-Core-0.1.1.zip",
-                    "size": "498350",
+                    "url": "https://raw.githubusercontent.com/Even-yuwei/platform/master/Seeed-K210-Pi/ArduinoCore-k210.zip",
+                    "checksum": "SHA-256:cec82dee2f4fb47edbd3192b129e436ae2ac0291b3e6cb3c6c7d8d909829e165",
+                    "archiveFileName": "ArduinoCore-k210.zip",
+                    "size": "9722822",
                     "boards": [
                         {"name": "Seeed-K210-Pi"}
                     ],
