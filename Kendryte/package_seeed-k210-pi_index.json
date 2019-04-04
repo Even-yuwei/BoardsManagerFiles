@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "Seeeduino-Even", 
+            "name": "SeeedKenduino", 
             "maintainer": "Seeed Studio",
             "websiteURL": "http://www.seeedstudio.com/",
             "email": "techsupport@seeed.cc",
@@ -13,32 +13,32 @@
                     "name": "Grove AI HAT for Edge Computing",
                     "architecture": "riscv",
                     "category": "Contributed",
-                    "version": "0.1.2",
-                    "url": "https://raw.githubusercontent.com/Even-yuwei/platform/master/Seeed-K210-Pi/ArduinoCore-k210.zip",
-                    "checksum": "SHA-256:5d83c4da01008e9fb0d3114295f3cc5497b6b56e9e5db1b7774ed93b8f1fb014",
-                    "archiveFileName": "ArduinoCore-k210.zip",
-                    "size": "4017628",
+                    "version": "0.1.1",
+                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.1.zip",
+                    "checksum": "SHA-256:5aac1075184fce1c472066d5b1bed467b66c8a437d15be228ee057a8c9831aaf",
+                    "archiveFileName": "ArduinoCore-k210-0.1.1.zip",
+                    "size": "7929848",
                     "boards": [
                         {"name": "Seeed K210 Pi"}
                     ],
                     "toolsDependencies": [
                         {
-                            "packager": "Seeeduino-Even", 
+                            "packager": "SeeedKenduino", 
                             "version": "8.2.0", 
                             "name": "riscv64-unknown-elf-gcc"
                         }, 
                         {
-                            "packager": "Seeeduino-Even", 
+                            "packager": "SeeedKenduino", 
                             "version": "0.2.3", 
                             "name": "openocd"
                         },
                         {
-                            "packager": "Seeeduino-Even", 
+                            "packager": "SeeedKenduino", 
                             "version": "0.4.1", 
                             "name": "kflash"
                         },
                         {
-                            "packager": "Seeeduino-Even", 
+                            "packager": "SeeedKenduino", 
                             "version": "0.5.3", 
                             "name": "kendryte-standalone-sdk"
                         }
@@ -51,15 +51,15 @@
                     "name": "riscv64-unknown-elf-gcc", 
                     "systems": [
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/toolchain/toolchain_v8.2.0_20190213.zip",
-                            "checksum": "SHA-256:9AF21C336C8CCB405A10D715C480F29C5996D3932ADF6955993CA4B10502B72B", 
+                            "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-win-amd64-8.2.0-20190213.zip",
+                            "checksum": "SHA-256:a82c6e6498eeda662b836e0a5b7a2b26ff7024e9d1f2e906c5d39f440bacdd8d", 
                             "host": "i686-mingw32", 
                             "archiveFileName": "toolchain_v8.2.0_20190213.zip", 
-                            "size": "487337534"
+                            "size": "471905370"
                         },
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/toolchain/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-                            "checksum": "SHA-256:AA2FCC76FF61261B3667A422D4F67DEC19C4547474BFF4EBADAA1258B87985DA", 
+                            "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
+                            "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da", 
                             "host": "x86_64-linux-gnu", 
                             "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz", 
                             "size": "360536176"
@@ -71,15 +71,15 @@
                     "name": "openocd", 
                     "systems": [
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/openocd/K210_openocd_v1.0.0.tar.bz2", 
-                            "checksum": "SHA-256:2C9A4302116C13936F43A0D2004DD656A0106633484E652F63C2DBE4E87B2225", 
+                            "url": "https://github.com/kendryte/openocd-kendryte/releases/download/v0.2.3/kendryte-openocd-0.2.3-win32.zip", 
+                            "checksum": "SHA-256:69f917de5535c807a9caaf8ec3e1411fc0ef3458ccf3354a11dde76031ca7b03", 
                             "host": "i686-mingw32", 
-                            "archiveFileName": "K210_openocd_v1.0.0.tar.bz2", 
-                            "size": "20242789"
+                            "archiveFileName": "kendryte-openocd-0.2.3-win32.zip", 
+                            "size": "12992801"
                         },
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/openocd/kendryte-openocd-0.2.3-ubuntu64.tar.gz", 
-                            "checksum": "SHA-256:1B2E12B9BAE116AA30F6B47F2FFA473878229A2797A62630F19DB2F53C08F2E6", 
+                            "url": "https://github.com/kendryte/openocd-kendryte/releases/download/v0.2.3/kendryte-openocd-0.2.3-ubuntu64.tar.gz", 
+                            "checksum": "SHA-256:1b2e12b9bae116aa30f6b47f2ffa473878229a2797a62630f19db2f53c08f2e6", 
                             "host": "x86_64-linux-gnu", 
                             "archiveFileName": "kendryte-openocd-0.2.3-ubuntu64.tar.gz", 
                             "size": "4478964"
@@ -91,11 +91,11 @@
                     "name": "kflash", 
                     "systems": [
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/kflash/kflash_win_cli_0.4.1.zip", 
-                            "checksum": "SHA-256:62721AA096A5BE989162D7934D431EA6A901DD4E4AF1E7E91B29EFBD8179CFAB", 
+                            "url": "https://github.com/kendryte/kendryte-flash-windows/releases/download/v0.4.1/K-Flash.zip", 
+                            "checksum": "SHA-256:f7e12086c09edd0473e9e0f4ff5e8564ecf62545c87b109adddbd8682adf56af", 
                             "host": "i686-mingw32", 
-                            "archiveFileName": "kflash_win_cli_0.4.1.zip", 
-                            "size": "849425"
+                            "archiveFileName": "K-Flash.zip", 
+                            "size": "5197650"
                         },
                         {
                             "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/kflash/kflash_linux.zip", 
@@ -107,22 +107,22 @@
                     ]
                 },
                 {
-                    "version": "0.5.3", 
+                    "version": "0.5.4", 
                     "name": "kendryte-standalone-sdk", 
                     "systems": [
                         {
-                            "url": "https://s3.cn-north-1.amazonaws.com.cn/dl.kendryte.com/documents/kendryte-standalone-sdk-0.5.3.zip", 
-                            "checksum": "SHA-256:7f3ab40e97480cff939d261d92ed4f02c00597647cd8316881c5e3623d47d848", 
+                            "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.4.zip", 
+                            "checksum": "SHA-256:e9711ddb9af46a15e29142c519fa3f1299e8bacd2621867b5b604c0de5ace72d", 
                             "host": "i686-mingw32", 
-                            "archiveFileName": "kendryte-standalone-sdk-0.5.3.zip", 
-                            "size": "410539"
+                            "archiveFileName": "kendryte-standalone-sdk-0.5.4.zip", 
+                            "size": "429754"
                         },
                         {
-                            "url": "https://s3.cn-north-1.amazonaws.com.cn/dl.kendryte.com/documents/kendryte-standalone-sdk-0.5.3.zip", 
-                            "checksum": "SHA-256:7f3ab40e97480cff939d261d92ed4f02c00597647cd8316881c5e3623d47d848", 
+                            "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.4.tar.gz", 
+                            "checksum": "SHA-256:1c93df616f319b939c6f5b09661afa8a6672e40665b75749233f89763dbb5486", 
                             "host": "x86_64-linux-gnu", 
-                            "archiveFileName": "kendryte-standalone-sdk-0.5.3.zip", 
-                            "size": "410539"
+                            "archiveFileName": "kendryte-standalone-sdk-0.5.4.tar.gz", 
+                            "size": "346574"
                         }
                     ]
                 }
