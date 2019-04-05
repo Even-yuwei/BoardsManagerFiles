@@ -15,9 +15,9 @@
                     "category": "Contributed",
                     "version": "0.1.1",
                     "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-v0.1.1.zip",
-                    "checksum": "SHA-256:32543364e34b257120adce1d3c7ab9a4ca2984383a5f94a036cf8912aefbbadf",
+                    "checksum": "SHA-256:5662952ae60f3e42cfd7c5295a60a221822c3dbacf5707ab13d5beb0455f8d55",
                     "archiveFileName": "ArduinoCore-k210-v0.1.1.zip",
-                    "size": "6721806",
+                    "size": "6729659",
                     "boards": [
                         {"name": "Seeed K210 Pi"}
                     ],
