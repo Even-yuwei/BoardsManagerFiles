@@ -14,10 +14,10 @@
                     "architecture": "riscv",
                     "category": "Contributed",
                     "version": "0.1.1",
-                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.1.zip",
-                    "checksum": "SHA-256:5aac1075184fce1c472066d5b1bed467b66c8a437d15be228ee057a8c9831aaf",
-                    "archiveFileName": "ArduinoCore-k210-0.1.1.zip",
-                    "size": "7929848",
+                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-v0.1.1.zip",
+                    "checksum": "SHA-256:32543364e34b257120adce1d3c7ab9a4ca2984383a5f94a036cf8912aefbbadf",
+                    "archiveFileName": "ArduinoCore-k210-v0.1.1.zip",
+                    "size": "6721806",
                     "boards": [
                         {"name": "Seeed K210 Pi"}
                     ],
@@ -26,86 +26,6 @@
                             "packager": "SeeedKenduino", 
                             "version": "8.2.0", 
                             "name": "riscv64-unknown-elf-gcc"
-                        }, 
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.2.3", 
-                            "name": "openocd"
-                        },
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.4.1", 
-                            "name": "kflash"
-                        },
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.5.4", 
-                            "name": "kendryte-standalone-sdk"
-                        }
-                    ]
-                },
-                {
-                    "name": "Grove AI HAT for Edge Computing",
-                    "architecture": "riscv",
-                    "category": "Contributed",
-                    "version": "0.1.2",
-                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.2.zip",
-                    "checksum": "SHA-256:9bc0722cf905c75449001a57f380b3e7a9edb12cb290cb3185272a56eca9ca99",
-                    "archiveFileName": "ArduinoCore-k210-0.1.2.zip",
-                    "size": "6703894",
-                    "boards": [
-                        {"name": "Seeed K210 Pi"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "8.2.0", 
-                            "name": "riscv64-unknown-elf-gcc"
-                        }, 
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.2.3", 
-                            "name": "openocd"
-                        },
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "1.0.0", 
-                            "name": "kflash"
-                        },
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.5.4", 
-                            "name": "kendryte-standalone-sdk"
-                        },
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.5.3", 
-                            "name": "kendryte-libs"
-                        }
-                    ]
-                },
-                {
-                    "name": "Grove AI HAT for Edge Computing",
-                    "architecture": "riscv",
-                    "category": "Contributed",
-                    "version": "0.1.3",
-                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.2.zip",
-                    "checksum": "SHA-256:9bc0722cf905c75449001a57f380b3e7a9edb12cb290cb3185272a56eca9ca99",
-                    "archiveFileName": "ArduinoCore-k210-0.1.2.zip",
-                    "size": "6703894",
-                    "boards": [
-                        {"name": "Seeed K210 Pi"}
-                    ],
-                    "toolsDependencies": [
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "8.2.0", 
-                            "name": "riscv64-unknown-elf-gcc"
-                        }, 
-                        {
-                            "packager": "SeeedKenduino", 
-                            "version": "0.2.3", 
-                            "name": "openocd"
                         },
                         {
                             "packager": "SeeedKenduino", 
