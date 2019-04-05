@@ -91,17 +91,17 @@
                     "name": "kflash", 
                     "systems": [
                         {
-                            "url": "https://github.com/kendryte/kendryte-flash-windows/releases/download/v0.4.1/K-Flash.zip", 
-                            "checksum": "SHA-256:f7e12086c09edd0473e9e0f4ff5e8564ecf62545c87b109adddbd8682adf56af", 
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/K-Flash-0.4.1.zip", 
+                            "checksum": "SHA-256:bcf3debe644f87148f5472cf649e50f3e5d5e05fa4e05a4e4ed914f1612ab399", 
                             "host": "i686-mingw32", 
                             "archiveFileName": "K-Flash.zip", 
                             "size": "5197650"
                         },
                         {
-                            "url": "https://bigbits.oss-cn-qingdao.aliyuncs.com/Arduino_for_k210/tools/kflash/kflash_linux.zip", 
-                            "checksum": "SHA-256:A699DBC6119AF587E0B7C84147BCA306B532585E6804DD00909058F36BF29B1C", 
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kflash_linux-0.4.1.zip", 
+                            "checksum": "SHA-256:a699dbc6119af587e0b7c84147bca306b532585e6804dd00909058f36bf29b1c", 
                             "host": "x86_64-linux-gnu", 
-                            "archiveFileName": "kflash_linux.zip", 
+                            "archiveFileName": "kflash_linux-0.4.1.zip", 
                             "size": "46751"
                         }
                     ]
