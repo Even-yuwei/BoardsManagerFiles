@@ -43,6 +43,46 @@
                             "name": "kendryte-standalone-sdk"
                         }
                     ]
+                },
+                {
+                    "name": "Grove AI HAT for Edge Computing",
+                    "architecture": "riscv",
+                    "category": "Contributed",
+                    "version": "0.1.2",
+                    "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.2.zip",
+                    "checksum": "SHA-256:9bc0722cf905c75449001a57f380b3e7a9edb12cb290cb3185272a56eca9ca99",
+                    "archiveFileName": "ArduinoCore-k210-0.1.2.zip",
+                    "size": "6703894",
+                    "boards": [
+                        {"name": "Seeed K210 Pi"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "SeeedKenduino", 
+                            "version": "8.2.0", 
+                            "name": "riscv64-unknown-elf-gcc"
+                        }, 
+                        {
+                            "packager": "SeeedKenduino", 
+                            "version": "0.2.3", 
+                            "name": "openocd"
+                        },
+                        {
+                            "packager": "SeeedKenduino", 
+                            "version": "0.4.1", 
+                            "name": "kflash"
+                        },
+                        {
+                            "packager": "SeeedKenduino", 
+                            "version": "0.5.4", 
+                            "name": "kendryte-standalone-sdk"
+                        },
+                        {
+                            "packager": "SeeedKenduino", 
+                            "version": "0.5.3", 
+                            "name": "kendryte-libs"
+                        }
+                    ]
                 }
             ],
             "tools": [
@@ -87,22 +127,22 @@
                     ]
                 },
                 {
-                    "version": "0.4.1", 
+                    "version": "1.0.0", 
                     "name": "kflash", 
                     "systems": [
                         {
-                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kflash_window-0.4.1.zip", 
-                            "checksum": "SHA-256:4b5b0d8321c922c9e58e08385310fde88a7ebbf2e0936c7546ed7d6361a89832", 
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/win_kflash_py_v1.0.0.zip", 
+                            "checksum": "SHA-256:e2c1f217bb62bd30fd7d5a43aa7931b1144098f6d13ff9ed2a0c428130aaeec1", 
                             "host": "i686-mingw32", 
-                            "archiveFileName": "kflash_window-0.4.1.zip", 
-                            "size": "5197798"
+                            "archiveFileName": "win_kflash_py_v1.0.0.zip", 
+                            "size": "5900033"
                         },
                         {
-                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kflash_linux-0.4.1.zip", 
-                            "checksum": "SHA-256:a699dbc6119af587e0b7c84147bca306b532585e6804dd00909058f36bf29b1c", 
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/linux_kflash_v1.0.0.zip", 
+                            "checksum": "SHA-256:d409ef1945c53b148bbf43832b25901c58dc9e1a18f431bd6992fdcc8f363630", 
                             "host": "x86_64-linux-gnu", 
-                            "archiveFileName": "kflash_linux-0.4.1.zip", 
-                            "size": "46751"
+                            "archiveFileName": "linux_kflash_v1.0.0.zip", 
+                            "size": "63387"
                         }
                     ]
                 },
@@ -123,6 +163,26 @@
                             "host": "x86_64-linux-gnu", 
                             "archiveFileName": "kendryte-standalone-sdk-0.5.4.tar.gz", 
                             "size": "346574"
+                        }
+                    ]
+                },
+                {
+                    "version": "0.5.3", 
+                    "name": "kendryte-libs", 
+                    "systems": [
+                        {
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kendryte-window-libs-0.5.3.zip", 
+                            "checksum": "SHA-256:680bd43868049c7d9d78596083150815362674dc5ef138ce87c6188794e71e13", 
+                            "host": "i686-mingw32", 
+                            "archiveFileName": "kendryte-window-libs-0.5.3.zip", 
+                            "size": "1235315"
+                        },
+                        {
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kendryte-linux-libs-0.5.3.zip", 
+                            "checksum": "SHA-256:f73a7f4bfd9c639688336263acf32c121cb4e11c0423d27a1beaac2f56706b07", 
+                            "host": "x86_64-linux-gnu", 
+                            "archiveFileName": "kendryte-linux-libs-0.5.3.zip", 
+                            "size": "1537319"
                         }
                     ]
                 }
