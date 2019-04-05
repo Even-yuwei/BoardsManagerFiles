@@ -39,7 +39,7 @@
                         },
                         {
                             "packager": "SeeedKenduino", 
-                            "version": "0.5.3", 
+                            "version": "0.5.4", 
                             "name": "kendryte-standalone-sdk"
                         }
                     ]
@@ -91,11 +91,11 @@
                     "name": "kflash", 
                     "systems": [
                         {
-                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/K-Flash-0.4.1.zip", 
-                            "checksum": "SHA-256:bcf3debe644f87148f5472cf649e50f3e5d5e05fa4e05a4e4ed914f1612ab399", 
+                            "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kflash_window-0.4.1.zip", 
+                            "checksum": "SHA-256:4b5b0d8321c922c9e58e08385310fde88a7ebbf2e0936c7546ed7d6361a89832", 
                             "host": "i686-mingw32", 
-                            "archiveFileName": "K-Flash.zip", 
-                            "size": "5197650"
+                            "archiveFileName": "kflash_window-0.4.1.zip", 
+                            "size": "5197798"
                         },
                         {
                             "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/kflash_linux-0.4.1.zip", 
