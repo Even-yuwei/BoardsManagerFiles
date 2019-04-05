@@ -48,7 +48,7 @@
                     "name": "Grove AI HAT for Edge Computing",
                     "architecture": "riscv",
                     "category": "Contributed",
-                    "version": "0.1.2",
+                    "version": "0.1.3",
                     "url": "https://github.com/Even-yuwei/BoardsManagerFiles/raw/master/Kendryte/ArduinoCore-k210-0.1.2.zip",
                     "checksum": "SHA-256:9bc0722cf905c75449001a57f380b3e7a9edb12cb290cb3185272a56eca9ca99",
                     "archiveFileName": "ArduinoCore-k210-0.1.2.zip",
